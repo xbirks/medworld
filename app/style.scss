@@ -212,6 +212,8 @@ strong{
         padding: 10px 16px 10px 16px;
     }
 
+ 
+
     p {
         font-size: 1.3em;
         font-weight: 500;
@@ -261,47 +263,16 @@ strong{
     }
 }
 
-.combo__standard{
-    @include media500px {
-        width: 100%;
-        max-width: 200px;
-        margin-bottom: 6px;
-    }
-}
-
-.combo__blue{
-    background-color: $azul-ermo;
-    width: 100%;
-    max-width: 200px;
-
-    &:hover{
-        background-color: $negro-ermo;
-        border-color: $negro-ermo;
-    }
+.button_claro{
+    background-color: $azul-med-claro;
+    width: 110px;
+    justify-content: center;
+    margin: 30px auto 0 auto;
 
     p{
-        color: $blanco-ermo;
+        color: $azul-med-oscuro;
+        text-align: center;
     }
-
-    .arrow__svg{
-        fill: $blanco-ermo;
-    }
-}
-
-.combo__standard{
-    margin-right: 10px;
-}
-
-.buton:hover .curzr-big-circle {
-    width: 90px;
-    height: 90px;
-    transition:  width, height 0.3s ease;
-}
-
-a:hover .curzr-big-circle {
-    width: 90px;
-    height: 90px;
-    transition:  width, height 0.3s ease;
 }
 
 
@@ -323,13 +294,13 @@ a:hover .curzr-big-circle {
     margin-top: 1em;
 
     .navbar__logo img{
-        max-width: 80px;
+        max-width: 60px;
         height: auto;
         padding: 1em;
     }
 
     .button{
-        margin-right: 1em;
+        margin-right: 0.5em;
     }
 
 }
@@ -368,6 +339,61 @@ a:hover .curzr-big-circle {
     }
 }
 
+.pilares{
 
+    margin-top: 20vh;
+    max-width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+    .cajon__pilares{
+        display: flex;
+        margin-bottom: 20px;
+        border: solid 2px $blanco-med;
+        border-radius: 1em;
+        align-items: center;
+
+        .pilar_img{
+            max-height: 100px;
+            width: auto;
+            margin: 20px;
+        }
+
+        p{
+            color: $blanco-med;
+            font-family: $neue;
+            font-size: 1.5em;
+            line-height: 1.2em;
+            margin-right: 20px;
+        }
+    }
+}
+
+
+
+//FOOTER
+
+.footer{
+    background-color: $azul-med-claro;
+    margin-top: 15vh;
+    border-radius: 20px 20px 0 0;
+    padding: 20px;
+
+    .footer__logo{
+        width: 200px;
+        margin-bottom: 30px;
+    }
+
+    p{
+        color: $azul-med-oscuro;
+        font-size: 1em;
+    }
+
+    a{
+        color: $azul-med-oscuro;
+        font-weight: 600;
+    }
+}
 
 
