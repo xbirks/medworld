@@ -1,5 +1,4 @@
-@import './variables.scss';
-
+@use './variables.scss' as *;
 
 
 html, body, div, span, applet, object, iframe,
@@ -293,6 +292,12 @@ strong{
     border-radius: 5em;
     margin-top: 1em;
 
+    @include media500px {
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 0px;
+    }
+
     .navbar__logo img{
         max-width: 60px;
         height: auto;
@@ -316,6 +321,11 @@ strong{
     margin: 0 auto;
     margin-top: 25vh;
 
+    @include media600px {
+        max-width: 90vw;
+        margin-top: 15vh;
+    }
+
 }
 
 .title{
@@ -329,6 +339,15 @@ strong{
 
     margin-top: 20px;
     max-width: 60vw;
+
+    @include media900px {
+        font-size: 1.5em;
+    }
+
+    @include media600px {
+        max-width: 80vw;
+        margin-top: 10px;
+    }
 
     .title_v1{
         font-style: italic;
@@ -346,6 +365,12 @@ strong{
     display: block;
     margin-left: auto;
     margin-right: auto;
+
+    @include media400px {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10vh;
+    }
   
     .cajon__pilares{
         display: flex;
@@ -358,6 +383,11 @@ strong{
             max-height: 100px;
             width: auto;
             margin: 20px;
+
+            @include media400px {
+                max-height: 80px;
+                margin: 15px;
+            }
         }
 
         p{
@@ -366,6 +396,10 @@ strong{
             font-size: 1.5em;
             line-height: 1.2em;
             margin-right: 20px;
+
+            @include media500px {
+                font-size: 1.2em;
+            }
         }
     }
 }
