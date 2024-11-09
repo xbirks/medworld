@@ -8,7 +8,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 export const metadata = {
 
   //GENERIC
-  title: 'Estrategias de marketing para cirujanos estéticos | MEDWORLD',
+  title: 'Potenciamos la marca personal de cirujanos estéticos | MEDWORLD',
   description: 'Impulsamos la marca personal de cirujanos estéticos mediante funnels de ventas especializados y gestión de redes sociales para atraer más pacientes.',
   applicationName: 'MEDWORLD',
   keywords: ['marketing para cirujanos estéticos', 'marca personal para médicos estéticos', 'gestión de redes sociales para cirujanos plásticos', 'funnel de ventas para médicos estéticos', 'aumento de visibilidad en redes sociales para cirujanos estéticos', 'estrategias de marketing para médicos cirujanos', 'crecimiento de marca personal para cirujanos plásticos', 'marketing digital para médicos estéticos', 'gestión de marca personal en redes sociales para cirujanos', 'atraer pacientes mediante funnel de ventas especializado', 'agencia de marketing para cirujanos estéticos', 'potenciación de marca personal para médicos estéticos', 'tráfico web para cirujanos plásticos', 'servicios de marketing para médicos cirujanos estéticos', 'funnel de ventas para clínicas estéticas', 'branding para cirujanos estéticos', 'marketing en redes sociales para médicos estéticos', 'desarrollo de marca personal para cirujanos', 'estrategias digitales para cirujanos plásticos', 'aumento de pacientes para médicos estéticos'],

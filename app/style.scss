@@ -271,6 +271,11 @@ strong{
     p{
         color: $azul-med-oscuro;
         text-align: center;
+        font-size: 1.4em;
+
+        @include media500px {
+            font-size: 1.4em;
+        }
     }
 }
 
@@ -367,9 +372,10 @@ strong{
     margin-right: auto;
 
     @include media400px {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 10vh;
+        max-width: 90%;
     }
   
     .cajon__pilares{
@@ -398,7 +404,7 @@ strong{
             margin-right: 20px;
 
             @include media500px {
-                font-size: 1.2em;
+                font-size: 1.3em;
             }
         }
     }
@@ -422,6 +428,10 @@ strong{
     p{
         color: $azul-med-oscuro;
         font-size: 1em;
+
+        @include media500px {
+            font-size: 1em;
+        }
     }
 
     a{
