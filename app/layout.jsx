@@ -7,11 +7,11 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 export const metadata = {
 
   //GENERIC
-  title: 'ERMO | Estudio de diseño gráfico en Valencia',
-  description: 'Branding, ilustración, animación 2D/3D, diseño web y fotografía de producto. Creatividad y compromiso.',
-  applicationName: 'ERMO',
-  keywords: ['diseño gráfico en Valencia', 'estudio de diseño gráfico en Manises', 'branding en Manises', 'ilustración en Manises', 'animación 2D en Manises', 'animación 3D en Manises', 'diseño web en Manises', 'fotografía de producto en Manises', 'diseñador gráfico en Manises', 'diseñador gráfico en Valencia', 'creatividad en Manises', 'marketing digital en Manises', 'diseño de logos en Manises', 'identidad corporativa en Manises', 'diseño de interiores en Manises', 'diseño de packaging en Manises', 'diseño de folletos en Manises', 'diseño de carteles en Manises', 'desarrollo de marca en Manises', 'consultoría de diseño en Manises', 'diseñador gráfico Manises'],
-  authors: [{ name: 'Andrés Ortega', url: 'https://soyandres.es' }],
+  title: 'Estrategias de marketing para cirujanos estéticos | MEDWORLD',
+  description: 'Impulsamos la marca personal de cirujanos estéticos mediante funnels de ventas especializados y gestión de redes sociales para atraer más pacientes.',
+  applicationName: 'MEDWORLD',
+  keywords: ['marketing para cirujanos estéticos', 'marca personal para médicos estéticos', 'gestión de redes sociales para cirujanos plásticos', 'funnel de ventas para médicos estéticos', 'aumento de visibilidad en redes sociales para cirujanos estéticos', 'estrategias de marketing para médicos cirujanos', 'crecimiento de marca personal para cirujanos plásticos', 'marketing digital para médicos estéticos', 'gestión de marca personal en redes sociales para cirujanos', 'atraer pacientes mediante funnel de ventas especializado', 'agencia de marketing para cirujanos estéticos', 'potenciación de marca personal para médicos estéticos', 'tráfico web para cirujanos plásticos', 'servicios de marketing para médicos cirujanos estéticos', 'funnel de ventas para clínicas estéticas', 'branding para cirujanos estéticos', 'marketing en redes sociales para médicos estéticos', 'desarrollo de marca personal para cirujanos', 'estrategias digitales para cirujanos plásticos', 'aumento de pacientes para médicos estéticos'],
+  authors: [{ name: 'Andrés Ortega', url: 'https://ermo.es' }],
   creator: 'Andrés Ortega',
   publisher: 'Andrés Ortega',
   robots: 'index, follow',
@@ -25,43 +25,43 @@ export const metadata = {
   
   // META
   openGraph: {
-    title: 'ERMO | Estudio de diseño gráfico en Valencia',
-    description: 'Estudio de diseño gráfico en Valencia: branding, ilustración, animación 2D/3D, diseño web y fotografía de producto.',
-    url: 'https://ermo.es',
+    title: 'Estrategias de marketing para cirujanos estéticos | MEDWORLD',
+    description: 'Impulsamos la marca personal de cirujanos estéticos mediante funnels de ventas especializados y gestión de redes sociales para atraer más pacientes.',
+    url: 'https://medworld.es',
     type: 'website',
     images: [
       {
-        url: 'https://ermo.es/seo/meta-1200x630.jpg',
+        url: 'https://medworld.es/seo/meta-1200x630.jpg',
         width: 1200,
         height: 630,
-        alt: 'Diferentes proyectos hechos por el estudio de diseño gráfico Ermo. Fotografía, branding, web, 3D.',
+        alt: 'Impulsamos la marca personal de cirujanos estéticos mediante funnels de ventas especializados y gestión de redes sociales para atraer más pacientes.',
       },
     ],
-    site_name: 'ERMO | Estudio de diseño gráfico en Valencia',
+    site_name: 'Estrategias de marketing para cirujanos estéticos | MEDWORLD',
     locale: 'es_ES',
   },
 
   // TWITTER
   twitter: {
-    card: 'ERMO | Estudio de diseño gráfico en Valencia',
-    site: '@ermo.es',
-    creator: '@ermo.es',
-    title: 'ERMO | Estudio de diseño gráfico en Valencia',
-    description: 'Estudio de diseño gráfico en Valencia: branding, ilustración, animación 2D/3D, diseño web y fotografía de producto.',
-    image: 'https://ermo.es/seo/twitter-1200-600.jpg',
-    imageAlt: 'Diferentes proyectos hechos por el estudio de diseño gráfico Ermo. Fotografía, branding, web, 3D.',
+    card: 'Estrategias de marketing para cirujanos estéticos | MEDWORLD',
+    site: '@medworld.es',
+    creator: '@medworld.es',
+    title: 'Estrategias de marketing para cirujanos estéticos | MEDWORLD',
+    description: 'Impulsamos la marca personal de cirujanos estéticos mediante funnels de ventas especializados y gestión de redes sociales para atraer más pacientes.',
+    image: 'https://medworld.es/seo/twitter-1200-600.jpg',
+    imageAlt: 'Impulsamos la marca personal de cirujanos estéticos mediante funnels de ventas especializados y gestión de redes sociales para atraer más pacientes.',
   },
 
   //APPLE
-  appleTouchIcon: 'https://ermo.es/favicon_500x500.png', 
-  appleTouchStartupImage: 'https://ermo.es/favicon_500x500.png',
+  appleTouchIcon: 'https://medworld.es/favicon_500x500.png', 
+  appleTouchStartupImage: 'https://medworld.es/favicon_500x500.png',
 
   
 
 
 
   //SECURITY
-  contentSecurityPolicy: "default-src 'self'; img-src 'self' https://www.ermo.es; script-src 'self' https://apis.google.com",
+  contentSecurityPolicy: "default-src 'self'; img-src 'self' https://www.medworld.es; script-src 'self' https://apis.google.com",
   referrerPolicy: 'no-referrer-when-downgrade', 
   xContentTypeOptions: 'nosniff', 
   xFrameOptions: 'DENY', 
@@ -83,12 +83,12 @@ export default function RootLayout({ children }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="https://use.typekit.net/ury2gea.css"></link>
        
-        <meta name="theme-color" content="#3F52FF" />
-        <meta name="background-color" content="#333333" />
-        <link rel="canonical" href="https://ermo.es" hrefLang="es-ES" />
+        <meta name="theme-color" content="#023246" />
+        <meta name="background-color" content="#5FC8F2" />
+        <link rel="canonical" href="https://medworld.es" hrefLang="es-ES" />
         <meta name="robots" content="index, follow" />
-        <link rel="icon" href="https://ermo.es/favicon_500x500.png" title="Ícono de la pestaña de la web Ermo" type="image/png" />
-        <link rel="apple-touch-icon" sizes="500x500" href="https://ermo.es/favicon_500x500.png" />
+        <link rel="icon" href="https://medworld.es/favicon_500x500.png" title="Ícono de la pestaña de la web Medworld" type="image/png" />
+        <link rel="apple-touch-icon" sizes="500x500" href="https://medworld.es/favicon_500x500.png" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -96,26 +96,26 @@ export default function RootLayout({ children }) {
               {
                 "@context": "http://schema.org",
                 "@type": "WebSite",
-                "url": "https://ermo.es",
-                "name": "ERMO ESTUDIO"
+                "url": "https://medworld.es",
+                "name": "MEDWORLD"
               },
               {
                 "@context": "http://schema.org",
                 "@type": "Organization",
-                "name": "Ermo",
-                "description": "Estudio de diseño gráfico en Valencia: branding, ilustración, animación 2D/3D, diseño web y fotografía de producto.",
-                "email": "estudio@ermo.es",
-                "logo": "https://ermo.es/favicon_500x500.png",
-                "url": "https://ermo.es"
+                "name": "Medworld",
+                "description": "Impulsamos la marca personal de cirujanos estéticos mediante funnels de ventas especializados y gestión de redes sociales para atraer más pacientes.",
+                "email": "carloscorrea@medworld.es",
+                "logo": "https://medworld.es/favicon_500x500.png",
+                "url": "https://medworld.es"
               },
               {
                 "@context": "http://schema.org",
                 "@type": "LocalBusiness",
-                "logo": "https://ermo.es/favicon_500x500.png",
-                "name": "Ermo",
-                "description": "Estudio de diseño gráfico en Valencia: branding, ilustración, animación 2D/3D, diseño web y fotografía de producto.",
-                "image": "https://ermo.es/seo/meta-1200x630.jpg",
-                "url": "https://ermo.es",
+                "logo": "https://medworld.es/favicon_500x500.png",
+                "name": "Medworld",
+                "description": "Impulsamos la marca personal de cirujanos estéticos mediante funnels de ventas especializados y gestión de redes sociales para atraer más pacientes.",
+                "image": "https://medworld.es/seo/meta-1200x630.jpg",
+                "url": "https://medworld.es",
                 "hasMap": "#",
                 "telephone": "675392216",
                 "priceRange": "$$$",
