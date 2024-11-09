@@ -1,4 +1,5 @@
 import "./style.scss";
+import HomePage from "./page";
 
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from "@vercel/speed-insights/next";
@@ -134,7 +135,7 @@ export default function RootLayout({ children }) {
       <body>
         
     
-        
+        <HomePage></HomePage>
         <Analytics /><SpeedInsights />
 
       </body>
