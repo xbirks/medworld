@@ -60,7 +60,7 @@ button {
 h1{
     font-size: 72px;
     font-weight: 400;
-    font-family: $owners;
+    font-family: $neue;
     text-transform: uppercase;
     color: $azul-ermo;
     text-align: left;
@@ -79,13 +79,12 @@ h1{
 }
 
 h2{
-    font-size: 32px;
-    font-weight: 400;
-    font-family: $owners;
-    text-transform: uppercase;
-    color: $azul-ermo;
-    letter-spacing: 1px;
-    text-align: left;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: $neue;
+    color: $blanco-med;
+    letter-spacing: -1.5px;
+    text-align: center;
 }
 
 h3{
@@ -111,14 +110,14 @@ p{
     font-size: $fuente-p;
     font-weight: 400;
     font-family: $neue;
-    color: $gris-ermo;
+    color: $blanco-med;
     line-height: 16pt; 
-    letter-spacing: -0.54px;
-    text-align: left;
+    letter-spacing: -0.2px;
+    text-align: center;
 
     @include media800px {
-        font-size: 11pt;
-        line-height: 15pt;
+        font-size: 14pt;
+        line-height: 1.4em;
     }
 }
 
@@ -180,7 +179,7 @@ strong{
     }
 
     @include media500px {
-        width: 100%;
+        width: 95%;
         max-width: 100%;
     }
 }
@@ -278,6 +277,57 @@ strong{
         }
     }
 }
+
+
+
+
+
+//LINEAS
+
+.linea_horizontal{
+    background-color: $azul-med-claro;
+    width: 95%;
+    height: 1pt;
+    margin-top: 12vh;
+    margin-bottom: 12vh;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.linea_vertical{
+    background-color: $azul-med-claro;
+    width: 1pt;
+    height: 30vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+//DESTACADOS
+
+.azul-claro{
+    color: $azul-med-claro !important;
+}
+
+.subrayado{
+    text-decoration: underline;
+}
+
+
 
 
 
@@ -407,6 +457,30 @@ strong{
                 font-size: 1.3em;
             }
         }
+    }
+}
+
+
+
+
+
+.circulo-azul{
+    background-color: $azul-med-claro;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+    p{
+        font-size: 32pt;
+        text-align: center;
+        color: $azul-med-oscuro;
+        font-weight: 600;
+        position: absolute;
+        top: 67px;
+        left: 40px;
     }
 }
 

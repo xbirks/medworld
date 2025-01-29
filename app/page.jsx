@@ -28,35 +28,40 @@ function HomePage(){
 
       <Image className="medworld_full_logo" src={med_logo} alt="Logo de Medworld completo en color azul claro"></Image>
 
-      <h1 className="title">Hacemos crecer la <span className="title_v1">marca personal</span> de los <span className="title_v2">mejores</span> médicos cirujanos estéticos. </h1>
+      <h1 className="title"><span className="title_v1">¿Eres buen cirujano?</span> Bien. <br></br> ¿Eres el cirujano más buscado y que más factura? <span className="title_v2">Con nosotros lo consigues.</span> </h1>
+
+      
+      <div className="linea_horizontal"></div>
 
 
+      <h2>Hablemos claro.</h2><div className="spacer-s"></div>
 
-      <div className="pilares">
-        
-        <div className="cajon__pilares">
-          <Image className="pilar_img" src={pilar1} alt="Número uno"></Image>
-          <p>Captamos clientes a través de nuestro Clinic Funnel</p>
-        </div>
+        <p>¿Cuántas veces has visto <span className="azul-claro">cirujanos estéticos mediocres</span> con agendas llenas y pacientes haciendo cola? </p><div className="spacer-m"></div>
 
-        <div className="cajon__pilares">
-          <Image className="pilar_img" src={pilar2} alt="Número dos"></Image>
-          <p>Implementamos una estrategia de contenido viral</p>
-        </div>
+      
 
-        <div className="cajon__pilares">
-          <Image className="pilar_img" src={pilar3} alt="Número tres"></Image>
-          <p>Gestionamos por completo todas
-          tus redes sociales</p>
-        </div>
+        <div className="circulo-azul">
+          <p>¿Y tú?</p>
+        </div><div className="spacer-s"></div>
 
-      </div>
+    
+        <p>Que con tu <span className="destacado-txt-azul">talento</span> y tus años de experiencia sigues luchando por llenar los huecos de tu calendario...</p>
+
+
+      <div className="linea_vertical"></div>
+
+
+      <h2 className="azul-claro"><span className="subrayado">NO</span>, no es justo.</h2>
+      <p>Pero aquí estamos para cambiar esto.</p>
+
+
+    
 
       <div className="button button_claro">
           <Link href="/contacto">
             <p>Llámanos</p>
           </Link>
-      </div>
+      </div> 
 
 
 

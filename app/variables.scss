@@ -14,8 +14,8 @@ $azul-med-oscuro: #023246;
 $azul-med-claro: #5FC8F2;
 
 $owners: Owners, Arial, Helvetica, sans-serif;
-$neue : neue-haas-unica, Arial, Helvetica, sans-serif;
-$fuente-p: 12pt;
+$neue: neue-haas-unica, Arial, Helvetica, sans-serif;
+$fuente-p: 16pt;
 $transition-short: 0.4s;
 
 
@@ -51,8 +51,12 @@ $mb-xxl:148px; .mb-xxl{margin-bottom: $mb-xxl;}
   }
 
 
-  .spacer-s{
+.spacer-xs{
     height: 2vh;
+}
+
+.spacer-s{
+    height: 4vh;
 }
 
 .spacer-m{
