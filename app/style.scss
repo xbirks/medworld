@@ -88,12 +88,12 @@ h2{
 }
 
 h3{
-    font-size: 18px;
-    font-weight: 400;
-    font-family: $owners;
-    color: $gris-ermo;
-    letter-spacing: 0.5px;
-    text-align: left;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: $neue;
+    color: $blanco-med;
+    letter-spacing: -1.5px;
+    text-align: center;
 }
 
 h4{
@@ -163,24 +163,20 @@ strong{
 }
 
 .master__body{
-    width: 80%;
-    max-width: 1200px;
-    margin: 0 auto;
+
+    padding: 0% 20% 0% 20%;
     
 
     @include media1200px {
-        width: 80%;
-        max-width: 100%;
+        padding: 0% 10% 0% 10%;
     }
 
     @include media900px {
-        width: 90%;
-        max-width: 100%;
+        padding: 0% 5% 0% 5%;
     }
 
     @include media500px {
-        width: 95%;
-        max-width: 100%;
+        padding: 0% 3% 0% 3%;
     }
 }
 
@@ -201,13 +197,13 @@ strong{
 .button {
     display: flex;
     height: 30px;
-    justify-content: space-between;
-    padding: 12px 16px 12px 16px;
+    justify-content: center;
+    padding: 12px 10px 12px 10px;
     border-radius: 32px;
     background-color: $azul-med-oscuro;
 
     @include media500px {
-        padding: 10px 16px 10px 16px;
+        padding: 10px 10px 10px 10px;
     }
 
  
@@ -217,7 +213,6 @@ strong{
         font-weight: 500;
         font-family: $neue;
         color: $azul-med-claro;
-        margin-top: 3px;
         text-align: center;
 
         @include media500px {
@@ -263,17 +258,18 @@ strong{
 
 .button_claro{
     background-color: $azul-med-claro;
-    width: 110px;
+    width: auto;
     justify-content: center;
     margin: 30px auto 0 auto;
 
     p{
         color: $azul-med-oscuro;
         text-align: center;
-        font-size: 1.4em;
+        font-size: 16pt;
 
         @include media500px {
-            font-size: 1.4em;
+            font-size: 16pt;
+            letter-spacing: -0.5px;
         }
     }
 }
@@ -308,6 +304,30 @@ strong{
     justify-content: center;
 }
 
+.linea_horizontal_oscuro{
+    background-color: $azul-med-oscuro;
+    width: 95%;
+    height: 1pt;
+    margin-top: 12vh;
+    margin-bottom: 12vh;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.linea_vertical_oscuro{
+    background-color: $azul-med-oscuro;
+    width: 1pt;
+    height: 30vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 
@@ -319,13 +339,23 @@ strong{
 
 //DESTACADOS
 
-.azul-claro{
-    color: $azul-med-claro !important;
-}
+.azul-claro {color: $azul-med-claro !important;}
 
-.subrayado{
-    text-decoration: underline;
-}
+.bg-azul-claro {background-color: $azul-med-claro !important;}
+
+.azul-oscuro {color: $azul-med-oscuro !important;}
+
+.bg-azul-oscuro {background-color: $azul-med-oscuro !important;}
+
+.blanco {color: $blanco-med !important;}
+
+.bg-blanco {background-color: $blanco-ermo !important;}
+
+.subrayado {text-decoration: underline !important;}
+
+.negrita {font-weight: 600 !important;}
+
+.regular {font-weight: 400 !important;}
 
 
 
@@ -482,6 +512,22 @@ strong{
         top: 67px;
         left: 40px;
     }
+}
+
+
+
+
+.button_disclaimer_1{
+    font-size: 12pt;
+    margin-top: 10px;
+}
+
+
+
+.box_resultados{
+    background-color: $azul-med-oscuro;
+    border-radius: 40px;
+    padding: 15px 15px 15px 15px;
 }
 
 
