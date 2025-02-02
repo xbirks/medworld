@@ -6,6 +6,7 @@ import pilar1 from "/app/assets/sec1.svg"
 import pilar2 from "/app/assets/sec2.svg"
 import pilar3 from "/app/assets/sec3.svg"
 import med_logo_oscuro from "/app/assets/medworld_full_logo_oscuro.svg"
+import clinic_funnel_logo from "/app/assets/clinic_funnel_logo.svg"
 
 function HomePage(){
 
@@ -19,9 +20,9 @@ function HomePage(){
           <Image src={logo_azul} alt="Icono de Medworld en color azul oscuro"></Image>
         </div>
         <div className="button">
-          <Link href="/contacto">
+          <a href="tel:+34605076461">
             <p>Llámanos</p>
-          </Link>
+          </a>
         </div>
       </div>
 
@@ -66,7 +67,7 @@ function HomePage(){
     
 
       <div className="button button_claro">
-          <Link href="/contacto">
+          <Link href="tel:+34605076461">
             <p>Reserva una llamada gratis</p>
           </Link>
       </div> 
@@ -107,6 +108,130 @@ function HomePage(){
 
 
     </div>
+
+
+
+
+
+
+
+
+
+    {/* TERCERA PARTE */}
+
+    <div className="master__body">
+
+
+    <Image className="medworld_full_logo" src={med_logo} alt="Logo de Medworld completo en color azul claro"></Image> <div className="spacer-s"></div>
+
+    <h2><span className="azul-claro">No somos médicos,</span> somos una agencia de marketing médico.</h2> <div className="spacer-m"></div>
+
+    <p>No tenemos ni idea de usar un bisturí y nos mareamos si vemos una gota de <span className="rojo">sangre.</span>
+    <br></br><br></br>
+    No hacemos magia.
+    <br></br><br></br>
+    ¿Pero sabes que SI hacemos bien?
+    <br></br><br></br>
+    <span className="azul-claro">¡Diagnosticar los puntos débiles de tu marketing</span> que necesistan un “retoque” y crear la estrategia ideal que necesita tu clínica!</p>
+
+
+    <div className="linea_vertical"></div>
+
+
+    <h2>¿Cómo lo hacemos?</h2><div className="spacer-xs"></div>
+
+        <p className="azul-claro">Gracias a nuestro sistema ClinicFunnel </p><div className="spacer-xs"></div>
+
+        <Image className="funnel_logo" src={clinic_funnel_logo} alt="Logo de Clinic Funnel para cirujanos estéticos"></Image> <div className="spacer-s"></div>
+
+        <p>ClinicFunnel no solo llenará tu consulta de pacientes: <span className="negrita">llenará tu marca personal de <span className="subrayado">autoridad.</span></span>
+        <br></br><br></br>
+        Nuestro sistema va más allá de los los <span className="cursiva">“likes”. </span>
+        <br></br><br></br>
+        Construimos algo más valioso:</p><div className="spacer-xs"></div>
+
+        <h3 className="azul-claro">pacientes que <span className="subrayado">confían en ti</span> antes de cruzar la puerta de tu clínica.</h3>
+
+
+
+    <div className="linea_vertical"></div>
+
+      <h4>Imagina esto...</h4><div className="spacer-xs"></div>
+
+      <p>Tu presencia en redes sociales e internet grita: <span className="negrita cursiva">“Soy el mejor, y puedo demostrarlo”.</span>
+      <br></br><br></br>
+      Pacientes que no regatean ni piden <span className="negrita cursiva">“descuentitos”.</span>
+      <br></br><br></br>
+      <span className="negrita">Una agenda repleta,</span> no de citas, sino, de oportunidades para cambiar vidas.</p><div className="spacer-xl"></div>
+      
+
+</div>
+
+
+
+
+      {/* CUARTA PARTE */}
+
+<div className="master__body bg-azul-claro"><div className="spacer-m"></div>
+
+<h2>La <span className="subrayado">garantía</span> que otros no se atreven a ofrecer</h2><div className="spacer-s"></div>
+
+<p className="azul-oscuro">¿Quieres saber como de serio nos tomamos esto?</p>
+
+
+<div className="linea_vertical_oscuro"></div>
+
+
+<p className="azul-oscuro">No veas MedWorld como la típica agencia.
+<br></br><br></br>
+<span className="blanco negrita">Somos tus socios y nos implicamos tanto como tú en tu negocio.</span>
+<br></br><br></br>
+Así que si tu <span className="negrita">NO ganas</span>, nosotros <span className="negrita">NO ganamos</span>...</p>
+
+
+<div className="linea_vertical_oscuro"></div>
+
+
+<p className="azul-oscuro">Así es...</p>
+
+<h3>La factura se queda en blanco.</h3>
+
+
+<div className="linea_vertical_oscuro"></div>
+
+
+
+<p className="azul-oscuro">Si, si... Lo has leído bien...</p><div className="spacer-s"></div>
+
+<div className="circulo-azul-grande">
+          <p>TRABAJAMOS<br></br><span className="gratis">GRATIS</span></p>
+        </div><div className="spacer-s"></div>
+
+<h4>Porque nosotros no vendemos promesas.</h4>
+
+
+<div className="linea_vertical_oscuro"></div>
+
+
+<h4>Nosotros construimos y te damos resultados objetivos.</h4><div className="spacer-xs"></div>
+
+<p className="azul-oscuro">Así de confiados estamos con nuestras estrategias.</p><div className="spacer-m"></div>
+
+
+
+<div className="button button_oscuro">
+          <Link href="tel:+34605076461">
+            <p>Reserva una llamada gratis</p>
+          </Link>
+      </div> 
+
+      <p className="button_disclaimer_1">Las plazas son limitadas. Sesión valorada en 250 €.</p>
+      <div className="spacer-xl"></div>
+
+
+
+
+</div><div className="spacer-xl"></div>
 
 
 

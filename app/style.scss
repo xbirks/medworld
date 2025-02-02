@@ -97,13 +97,12 @@ h3{
 }
 
 h4{
-    font-size: 18px;
-    font-weight: 400;
-    font-family: $owners;
-    color: $azul-ermo;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    text-align: left;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: $neue;
+    color: $blanco-med;
+    letter-spacing: -1px;
+    text-align: center;
 }
 
 p{
@@ -280,6 +279,25 @@ strong{
 }
 
 
+.button_oscuro{
+    background-color: $azul-med-oscuro;
+    width: auto;
+    justify-content: center;
+    margin: 30px auto 0 auto;
+
+    p{
+        color: $blanco-med;
+        text-align: center;
+        font-size: 16pt;
+
+        @include media500px {
+            font-size: 16pt;
+            letter-spacing: -0.5px;
+        }
+    }
+}
+
+
 
 
 
@@ -354,6 +372,8 @@ strong{
 
 .blanco {color: $blanco-med !important;}
 
+.rojo {color: #dd263d;}
+
 .bg-blanco {background-color: $blanco-ermo !important;}
 
 .subrayado {text-decoration: underline !important;}
@@ -361,6 +381,10 @@ strong{
 .negrita {font-weight: 600 !important;}
 
 .regular {font-weight: 400 !important;}
+
+.cursiva {font-style: italic !important;}
+
+.super-width{max-width: 100% !important;}
 
 
 
@@ -399,6 +423,12 @@ strong{
 
     .button{
         margin-right: 0.5em;
+        padding-left: 7vw;
+        padding-right: 7vw;
+
+        p{
+            font-size: 1.3em;
+        }
     }
 
 }
@@ -418,6 +448,20 @@ strong{
     @include media600px {
         max-width: 90vw;
         margin-top: 15vh;
+    }
+
+}
+
+.funnel_logo{
+    width: 60vw;
+    max-width: 600px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 3vh;
+
+    @include media600px {
+        max-width: 90vw;
+        margin-top: 3vh;
     }
 
 }
@@ -520,6 +564,32 @@ strong{
         position: absolute;
         top: 67px;
         left: 40px;
+    }
+}
+
+.circulo-azul-grande{
+    background-color: $azul-med-oscuro;
+    border-radius: 100%;
+    width: 90vw;
+    height: 90vw;
+    max-width: 600px;
+    max-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+    p{
+        font-size: 32pt;
+        text-align: center;
+        color: $azul-med-claro;
+        font-weight: 600;
+        position: absolute;
+        top: 126px;
+        left: 47px;
+    }
+
+    .gratis{
+        font-size: 60pt;
     }
 }
 
