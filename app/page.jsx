@@ -59,7 +59,7 @@ function HomePage(){
 
 
       <h2 className="azul-claro"><span className="subrayado">NO</span>, no es justo.</h2>
-      <p>Pero aquí estamos para cambiar esto.</p><div className="spacer-m"></div>
+      <p>Pero aquí estamos para cambiar esto.</p><div className="spacer-l"></div>
       
 
 
@@ -75,7 +75,7 @@ function HomePage(){
 
 
 
-      </div><div className="spacer-m"></div>
+      </div><div className="spacer-xl"></div>
 
 
 
@@ -93,9 +93,9 @@ function HomePage(){
 
       <div className="linea_vertical_oscuro"></div>
 
-      <p className="azul-oscuro">Publicar tres posts al mes en Instagram, pagar anuncios que no atraen pacientes y dejar tu reputación en manos de estrategias genéricas es la receta perfecta para quedarte en el anonimato.</p> <div className="spacer-m"></div>
+      <p className="azul-oscuro">Publicar tres posts al mes en Instagram, pagar anuncios que no atraen pacientes y dejar tu reputación en manos de estrategias genéricas es la receta perfecta para quedarte en el anonimato.</p> <div className="spacer-l"></div>
 
-      <h3 className="azul-oscuro">¿El resultado?</h3> <div className="spacer-xs"></div>
+      <h3 className="azul-oscuro">¿El resultado?</h3> <div className="spacer-s"></div>
 
           <div className="box_resultados"><p className="blanco">Más tiempo <span className="negrita">pegado al móvil</span> que al bisturí.</p></div> <div className="spacer-xs"></div>
 

@@ -162,9 +162,14 @@ strong{
     @extend %margin-auto;
 }
 
+
+
 .master__body{
 
     padding: 0% 20% 0% 20%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
     
 
     @include media1200px {
@@ -341,7 +346,7 @@ strong{
 
 .azul-claro {color: $azul-med-claro !important;}
 
-.bg-azul-claro {background-color: $azul-med-claro !important;}
+.bg-azul-claro {background-color: $azul-med-claro !important; max-width: 100% !important;}
 
 .azul-oscuro {color: $azul-med-oscuro !important;}
 
@@ -376,6 +381,9 @@ strong{
     padding: 5px;
     border-radius: 5em;
     margin-top: 1em;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 
     @include media500px {
         margin-right: 10px;
@@ -401,7 +409,8 @@ strong{
 //CUERPO
 
 .medworld_full_logo{
-    max-width: 80vw;
+    width: 80vw;
+    max-width: 800px;
     display: flex;
     margin: 0 auto;
     margin-top: 25vh;
