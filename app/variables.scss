@@ -121,6 +121,12 @@ $mb-xxl:148px; .mb-xxl{margin-bottom: $mb-xxl;}
     }
   }
 
+  @mixin media700px {
+    @media only screen and (max-width: 700px) {
+      @content;
+    }
+  }
+
   @mixin media600px {
     @media only screen and (max-width: 600px) {
       @content;

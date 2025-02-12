@@ -423,11 +423,17 @@ strong{
 
     .button{
         margin-right: 0.5em;
-        padding-left: 7vw;
-        padding-right: 7vw;
+        max-width: 300px;
+        padding-left: 2vw;
+        padding-right: 2vw;
 
         p{
             font-size: 1.3em;
+        }
+
+        @include media600px {
+            padding-left: 7vw;
+            padding-right: 7vw;
         }
     }
 
@@ -562,8 +568,12 @@ strong{
         color: $azul-med-oscuro;
         font-weight: 600;
         position: absolute;
-        top: 67px;
+        top: 87px;
         left: 40px;
+
+        @include media800px {
+            top: 67px;
+        }
     }
 }
 
@@ -579,17 +589,29 @@ strong{
     position: relative;
 
     p{
-        font-size: 32pt;
+        font-size: 56pt;
         text-align: center;
         color: $azul-med-claro;
         font-weight: 600;
-        position: absolute;
-        top: 126px;
-        left: 47px;
+        padding-top: 208px;
+        line-height: 87px;
+
+        @include media700px {
+            font-size: 9vw;
+            line-height: 10vw;
+        }
+
+        @include media700px {
+            padding-top: 33vw;
+        }
     }
 
     .gratis{
-        font-size: 60pt;
+        font-size: 110pt;
+
+        @include media700px {
+            font-size: 18vw;
+        }
     }
 }
 
