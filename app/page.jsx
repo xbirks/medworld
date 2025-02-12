@@ -144,7 +144,7 @@ function HomePage(){
 
         <Image className="funnel_logo" src={clinic_funnel_logo} alt="Logo de Clinic Funnel para cirujanos estéticos"></Image> <div className="spacer-s"></div>
 
-        <p>ClinicFunnel no solo llenará tu consulta de pacientes: <span className="negrita">llenará tu marca personal de <span className="subrayado">autoridad.</span></span>
+        <p>ClinicFunnel no solo llenará tu consulta de nuevos pacientes: <span className="negrita">llenará tu marca personal de <span className="subrayado">autoridad.</span></span>
         <br></br><br></br>
         Nuestro sistema va más allá de los los <span className="cursiva">“likes”. </span>
         <br></br><br></br>
@@ -232,6 +232,123 @@ Así que si tu <span className="negrita">NO ganas</span>, nosotros <span classNa
 
 
 </div><div className="spacer-xl"></div>
+
+
+
+
+
+
+
+
+
+
+
+   {/* QUINTA PARTE */}
+
+   <div className="master__body">
+
+
+
+
+<h2>Tu historia empieza aquí.</h2><div className="spacer-xs"></div>
+
+<div className="linea_vertical"></div>
+
+<p>Todavía no tenemos una lista interminable de casos de éxito… <br></br>
+Y esto es justo lo que nos hace diferentes.</p>
+
+<div className="linea_vertical"></div>
+
+<p>Estamos buscando <span className="azul-claro">nuestra <span className="subrayado negrita">primera</span> gran historia de éxito</span> y queremos que seas...</p><div className="spacer-xs"></div>
+
+
+
+  <div className="circulo-azul-ind">
+    <p>¡Tú!</p>
+  </div>
+
+  <div className="linea_vertical"></div>
+
+  <p>Sí, <span className="azul-claro subrayado">TÚ</span>. El cirujano que no tiene miedo de arriesgar para ganar.</p><div className="spacer-xs"></div>
+
+
+
+
+
+<div className="button button_claro">
+    <Link href="tel:+34605076461">
+      <p>Reserva una llamada gratis</p>
+    </Link>
+</div> 
+
+<p className="button_disclaimer_1">Las plazas son limitadas. Sesión valorada en 250 €.</p>
+
+
+
+</div><div className="spacer-xl"></div>
+
+
+
+
+
+
+
+
+
+      {/* SEXTA PARTE */}
+
+      <div className="master__body bg-azul-claro"><div className="spacer-m"></div>
+
+<h2>El primer paso para llenar tu agenda.</h2><div className="spacer-s"></div>
+
+<p className="azul-oscuro">Seamos honestos… Aquí <span className="negrita">el único riesgo que corres</span> es que sigas haciendo <span className="negrita">lo mismo de siempre</span> y sigas obteniendo los mismos resultados de siempre….</p>
+
+
+<div className="linea_vertical_oscuro"></div>
+
+
+<h3 className="azul-oscuro">¿Cómo lo hacemos?</h3> <div className="spacer-s"></div>
+
+<div className="box_resultados"><p className="blanco">Hacemos que <span className="negrita">tus metas</span> sean las nuestras.</p></div> <div className="spacer-xs"></div>
+
+<div className="box_resultados"><p className="blanco"><span className="negrita">Estratégias personalizadas,</span> no prefabricadas.</p></div> <div className="spacer-xs"></div>
+
+<div className="box_resultados"><p className="blanco">Potenciamos tu <span className="negrita">marca personal.</span></p></div> <div className="spacer-xs"></div>
+
+
+<div className="linea_vertical_oscuro"></div>
+
+
+<h2>No hay trucos.<br></br>No hay excusas.</h2><div className="spacer-s"></div>
+
+<p className="azul-oscuro">Si estás listo para que el mundo reconozca <span className="negrita">todo el potencial que tienes</span> como cirujano estético...</p>
+
+
+
+<div className="spacer-s"></div>
+
+
+
+<div className="button button_oscuro">
+    <Link href="tel:+34605076461">
+      <p>Reserva una llamada gratis</p>
+    </Link>
+</div> 
+
+<p className="button_disclaimer_1 azul-oscuro">Las plazas son limitadas. Sesión valorada en 250 €.</p>
+
+
+<div className="spacer-l"></div>
+
+
+
+
+
+
+</div><div className="spacer-xl"></div>
+
+
+
 
 
 

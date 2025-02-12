@@ -577,6 +577,30 @@ strong{
     }
 }
 
+.circulo-azul-ind{
+    background-color: $azul-med-claro;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+    p{
+        font-size: 32pt;
+        text-align: center;
+        color: $azul-med-oscuro;
+        font-weight: 600;
+        position: absolute;
+        top: 87px;
+        left: 62px;
+
+        @include media800px {
+            top: 67px;
+        }
+    }
+}
+
 .circulo-azul-grande{
     background-color: $azul-med-oscuro;
     border-radius: 100%;
