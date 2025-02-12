@@ -67,8 +67,8 @@ function HomePage(){
     
 
       <div className="button button_claro">
-          <Link href="tel:+34605076461">
-            <p>Reserva una llamada gratis</p>
+          <Link href="https://calendly.com/medworld-es/45min">
+            <p>Reserva una consulta gratis</p>
           </Link>
       </div> 
 
@@ -146,7 +146,7 @@ function HomePage(){
 
         <p>ClinicFunnel no solo llenará tu consulta de nuevos pacientes: <span className="negrita">llenará tu marca personal de <span className="subrayado">autoridad.</span></span>
         <br></br><br></br>
-        Nuestro sistema va más allá de los los <span className="cursiva">“likes”. </span>
+        Nuestro sistema va más allá de los <span className="cursiva">“likes”. </span>
         <br></br><br></br>
         Construimos algo más valioso:</p><div className="spacer-xs"></div>
 
@@ -158,11 +158,11 @@ function HomePage(){
 
       <h4>Imagina esto...</h4><div className="spacer-xs"></div>
 
-      <p>Tu presencia en redes sociales e internet grita: <span className="negrita cursiva">“Soy el mejor, y puedo demostrarlo”.</span>
+      <p>Tu presencia en redes sociales e internet grita: <span className="negrita cursiva">“Soy el mejor y puedo demostrarlo”.</span>
       <br></br><br></br>
       Pacientes que no regatean ni piden <span className="negrita cursiva">“descuentitos”.</span>
       <br></br><br></br>
-      <span className="negrita">Una agenda repleta,</span> no de citas, sino, de oportunidades para cambiar vidas.</p><div className="spacer-xl"></div>
+      <span className="negrita">Una agenda llena,</span> no de citas, sino, de oportunidades para cambiar vidas.</p><div className="spacer-xl"></div>
       
 
 </div>
@@ -220,8 +220,8 @@ Así que si tu <span className="negrita">NO ganas</span>, nosotros <span classNa
 
 
 <div className="button button_oscuro">
-          <Link href="tel:+34605076461">
-            <p>Reserva una llamada gratis</p>
+          <Link href="https://calendly.com/medworld-es/45min">
+            <p>Reserva una consulta gratis</p>
           </Link>
       </div> 
 
@@ -276,8 +276,8 @@ Y esto es justo lo que nos hace diferentes.</p>
 
 
 <div className="button button_claro">
-    <Link href="tel:+34605076461">
-      <p>Reserva una llamada gratis</p>
+    <Link href="https://calendly.com/medworld-es/45min">
+      <p>Reserva una consulta gratis</p>
     </Link>
 </div> 
 
@@ -330,8 +330,8 @@ Y esto es justo lo que nos hace diferentes.</p>
 
 
 <div className="button button_oscuro">
-    <Link href="tel:+34605076461">
-      <p>Reserva una llamada gratis</p>
+    <Link href="https://calendly.com/medworld-es/45min">
+      <p>Reserva una consulta gratis</p>
     </Link>
 </div> 
 
