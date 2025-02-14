@@ -503,7 +503,7 @@ strong{
     display: flex;
     margin: 0 auto;
     margin-top: 25vh;
-    animation: logo_upscale 1.5s ease-out;
+    animation: logo_upscale 1s ease-out;
 
     @include media600px {
         max-width: 90vw;
