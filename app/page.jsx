@@ -19,11 +19,23 @@ function HomePage(){
         <div className="navbar__logo">
           <Image src={logo_azul} alt="Icono de Medworld en color azul oscuro"></Image>
         </div>
-        <div className="button">
-          <a href="tel:+34605076461">
-            <p>Llámanos</p>
-          </a>
+
+        <div className="buttons_nav">
+
+          <div className="button cita_previa">
+            <a href="https://calendly.com/medworld-es/45min">
+              <p>Cita previa</p>
+            </a>
+          </div>
+
+          <div className="button">
+            <a href="tel:+34605076461">
+              <p>Llámanos</p>
+            </a>
+          </div>
+
         </div>
+
       </div>
 
 

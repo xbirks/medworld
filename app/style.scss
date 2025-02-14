@@ -68,7 +68,7 @@ h1{
     letter-spacing: 1px;
 
     @include media1200px {
-        font-size: 40pt;
+        font-size: 60pt;
         line-height: 50pt;
     }
 
@@ -79,12 +79,22 @@ h1{
 }
 
 h2{
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 500;
     font-family: $neue;
     color: $blanco-med;
     letter-spacing: -1.5px;
     text-align: center;
+
+    @include media1200px {
+        font-size: 40pt;
+        line-height: 50pt;
+    }
+
+    @include media800px {
+        font-size: 35pt;
+        line-height: 40pt;
+    }
 }
 
 h3{
@@ -397,17 +407,31 @@ strong{
 
 //NAVBAR
 
+@keyframes navbar_baja {
+    from {
+        top: -100px;
+    }
+    to {
+        top: 0px;
+    }
+}
+
 .navbar__master{
     background-color: $blanco-med;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px;
+    padding: 2px;
     border-radius: 5em;
     margin-top: 1em;
-    max-width: 800px;
-    margin-left: auto;
+    margin-left: 2%;
     margin-right: auto;
+    width: 95%;
+    position: fixed;
+    top: -100px;
+    z-index: 100;
+    animation: navbar_baja 1.5s ease-in-out forwards;
+    animation-delay: 1s;
 
     @include media500px {
         margin-right: 10px;
@@ -428,15 +452,35 @@ strong{
         padding-right: 2vw;
 
         p{
-            font-size: 1.3em;
+            font-size: 1em;
+            margin-top: 2px;
+
+            @include media800px {
+                font-size: 1.2em;
+            }
+
+            @include media600px {
+                font-size: 1.3em;
+            }
         }
 
         @include media600px {
             padding-left: 7vw;
             padding-right: 7vw;
+
         }
     }
 
+}
+
+.buttons_nav{
+    display: flex;
+
+    .cita_previa {
+        @include media600px {
+            display: none;
+        }
+    }
 }
 
 
@@ -444,12 +488,22 @@ strong{
 
 //CUERPO
 
+@keyframes logo_upscale {
+    from {
+        width: 0vw;
+    }
+    to {
+        width: 80vw;
+    }
+}
+
 .medworld_full_logo{
     width: 80vw;
     max-width: 800px;
     display: flex;
     margin: 0 auto;
     margin-top: 25vh;
+    animation: logo_upscale 1.5s ease-out;
 
     @include media600px {
         max-width: 90vw;
