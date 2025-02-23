@@ -56,7 +56,7 @@ function HomePage(){
 
       <h2>Hablemos claro.</h2><div className="spacer-s"></div>
 
-        <p>¿Cuántas veces has visto <span className="azul-claro">cirujanos estéticos mediocres</span> con agendas llenas y pacientes haciendo cola? </p><div className="spacer-m"></div>
+        <p>¿Cuántas veces has visto <span className="azul-claro">cirujanos plásticos mediocres</span> con agendas llenas y pacientes haciendo cola? </p><div className="spacer-m"></div>
 
       
 
@@ -154,7 +154,7 @@ function HomePage(){
 
         <p className="azul-claro">Gracias a nuestro sistema ClinicFunnel </p><div className="spacer-xs"></div>
 
-        <Image className="funnel_logo" src={clinic_funnel_logo} alt="Logo de Clinic Funnel para cirujanos estéticos"></Image> <div className="spacer-s"></div>
+        <Image className="funnel_logo" src={clinic_funnel_logo} alt="Logo de Clinic Funnel para cirujanos plásticos"></Image> <div className="spacer-s"></div>
 
         <p>ClinicFunnel no solo llenará tu consulta de nuevos pacientes: <span className="negrita">llenará tu marca personal de <span className="subrayado">autoridad.</span></span>
         <br></br><br></br>
@@ -333,7 +333,7 @@ Y esto es justo lo que nos hace diferentes.</p>
 
 <h2>No hay trucos.<br></br>No hay excusas.</h2><div className="spacer-s"></div>
 
-<p className="azul-oscuro">Si estás listo para que el mundo reconozca <span className="negrita">todo el potencial que tienes</span> como cirujano estético...</p>
+<p className="azul-oscuro">Si estás listo para que el mundo reconozca <span className="negrita">todo el potencial que tienes</span> como cirujano plástico...</p>
 
 
 
